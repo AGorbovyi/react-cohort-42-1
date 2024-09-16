@@ -1,0 +1,12 @@
+.hw02_wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 50px;
+    gap: 30px;
+}
+
+.page-title {
+    color: purple;
+    font-size: 30px;
+}

@@ -7,6 +7,8 @@ function Homework02() {
     <div className="hw02_wrapper">
         <h1 className="page-title">Home work 02</h1>      
         <div><Homer_Simpson /></div>
+        <div><Homer_Simpson /></div>
+        <div><Homer_Simpson /></div>
     </div>
     );
 }

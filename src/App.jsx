@@ -2,6 +2,7 @@ import './App.css';
 
 // 3. Импортировать компонент Lesson_02 в App.js
 import Lesson_02 from './lessons/lesson_02/Lesson_02';
+import Homework02 from './homeworks/hw02/Homework02';
 
 // Правила компонентов:
 // 1. Название пишем с большой буквы
@@ -11,8 +12,10 @@ import Lesson_02 from './lessons/lesson_02/Lesson_02';
 function App() {
   return (
     <div className="App">
-      <Lesson_02 /> 
-      </div>
+      <Lesson_02 />
+      <Homework02 />
+    </div>
+
   );
 }
 

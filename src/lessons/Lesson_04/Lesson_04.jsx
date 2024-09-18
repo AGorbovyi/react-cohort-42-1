@@ -1,5 +1,7 @@
 import Modal from "../../components/Modal/Modal";
 import Button from "../../components/Button/Button";
+import Counter from "../../components/Counter/Counter";
+
 import "./styles.css";
 
 function Lesson_04() {
@@ -43,7 +45,7 @@ function Lesson_04() {
 
         {/* ============ ТРИГЕРЫ =========== */}
         {/* 2ой шаг - передаем функцию showName в атрибут onClick */}
-        <button onClick={showName}>Show User Name</button>
+        {/* <button onClick={showName}>Show User Name</button>
         <div className="button-control">
           <Button onClick={button1Function} name="Button 1"></Button>
         </div>
@@ -52,7 +54,14 @@ function Lesson_04() {
         </div>
         <div className="button-control">
           <Button onClick={button3Function} name="Button 3"></Button>
-        </div>
+        </div> */}
+
+        
+        {/* ============ Counter =========== */}
+          <div>
+            <Counter />
+          </div>
+
       </div>
     );
   }

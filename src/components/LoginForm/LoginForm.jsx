@@ -5,7 +5,7 @@ import "./styles.css"
 
 function LoginForm() {
     return (
-        <form action="login-form-container">
+        <form className="login-form-container">
             <p className="title">Login form</p>
             <div className="input-container">
                 <input 

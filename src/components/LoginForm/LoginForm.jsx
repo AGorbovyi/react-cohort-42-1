@@ -1,5 +1,5 @@
-import Button from "../Button/Button"
-import Input from "../Input/Input"
+import Button from "../Button/Button";
+import Input from "../Input/Input";
 
 import "./styles.css"
 
@@ -8,12 +8,12 @@ function LoginForm() {
         <form className="login-form-container">
             <p className="title">Login form</p>
             <div className="input-container">
-                <input 
+                <Input 
                     id="login-email"
                     label="Email"
                     placeholder="Enter your email"
                     name="email" />
-                <input 
+                <Input 
                     id="login-password"
                     label="Password"
                     placeholder="Enter your password"

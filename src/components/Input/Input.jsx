@@ -1,4 +1,4 @@
-import './styles.css'
+import "./styles.css"
 
 function Input({id, name, type = "text", placeholder, label}) {
     return (

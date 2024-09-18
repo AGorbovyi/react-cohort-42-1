@@ -1,12 +1,7 @@
-.hw02_wrapper {
-    display: flex;
-    flex-direction: column;
+.page_wrapper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     flex: 1;
-    padding: 50px;
-    gap: 30px;
-}
-
-.page-title {
-    color: purple;
-    font-size: 30px;
+    background-color: rgb(234, 234, 234);
 }

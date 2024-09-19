@@ -8,8 +8,10 @@ import Lesson_04 from './lessons/Lesson_04/Lesson_04';
 //Homeworks:
 import Homework02 from './homeworks/hw02/Homework02';
 import Homework03 from './homeworks/hw03/Homework03';
+import Homework04 from './homeworks/hw04/Homework04';
 
 //Consultations:
+import Consultation_02 from './consultation/consultation02/Consultation_02';
 
 // Правила компонентов:
 // 1. Название пишем с большой буквы
@@ -22,8 +24,10 @@ function App() {
       {/* <Lesson_02 /> */}
       {/* <Homework02 /> */}
       {/* <Lesson_03 /> */}
-      <Homework03 />
+      {/* <Homework03 /> */}
       {/* <Lesson_04/> */}
+      {/* <Homework04 /> */}
+      <Consultation_02/>
     </div>
   );
 }

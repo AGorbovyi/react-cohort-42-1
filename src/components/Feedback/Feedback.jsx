@@ -1,21 +1,25 @@
+import { useState } from 'react';
 import Button from '../../components/Button/Button';
 
 import './styles.css';
 
 function Feedback () {
+
+    
     return (
-        <div className="counter-wrapper">
-        <div className="button-control">
-          <Button type="submit" name="Like" onClick={onMinus} />
+        <div className='feedback-form-wrapper'>
+            <div className='button-control'>
+                <Button name='Like' onClick={like}/>
+                <div className='counter'>{count}</div>
+            </div>
+            <div className='button-control'>
+                <Button name='Dislike' onClick={dislike}/>
+                <div className='counter'>{count}</div>
+            </div>
+            <div className='button-control'>
+                <Button name='Reset Results' onClick={reset}/>
+            </div>
         </div>
-        <p className="count">{count}</p>
-        <div className="button-control">
-          <Button type="submit" name="Dislike" onClick={onPlus}/>
-        </div>
-        <div className="button-control">
-          <Button type="submit" name="Reset Results" onClick={onPlus}/>
-        </div>
-      </div>
     );
 }
 

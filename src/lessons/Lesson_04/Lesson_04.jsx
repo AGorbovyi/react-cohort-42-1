@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import Modal from "../../components/Modal/Modal";
 import Button from "../../components/Button/Button";
 import Counter from "../../components/Counter/Counter";
@@ -5,6 +7,22 @@ import Counter from "../../components/Counter/Counter";
 import "./styles.css";
 
 function Lesson_04() {
+
+  // ============== Пример №2 c useState =============//
+  const [animals, setAnimals] = useState(["Tiger", "Lion", "Dog", "Cat"]);
+
+  const addPig = () => {
+    // Добавить Pig к массиву animals
+    setAnimals((prevValue) => {
+      return [...prevValue, "Pig"];
+    });
+  };
+
+  console.log(animals);
+
+
+  // ============== Пример №1 =============//
+
     {/* 1ый шаг - создаем функцию */}
     const showName = () => {
       alert("My name is John");
@@ -60,6 +78,7 @@ function Lesson_04() {
         {/* ============ Counter =========== */}
           <div>
             <Counter />
+           {/* <Button name={"Add Animal"} onClick={addPig} /> */}
           </div>
 
       </div>

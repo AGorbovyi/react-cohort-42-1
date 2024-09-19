@@ -2,10 +2,12 @@ import './App.css';
 
 // 3. Импортировать компонент Lesson_02 в App.js
 import Lesson_02 from './lessons/lesson_02/Lesson_02';
+import Lesson_03 from './lessons/lesson_03/Lesson_03';
 import Lesson_04 from './lessons/Lesson_04/Lesson_04';
 
 //Homeworks:
 import Homework02 from './homeworks/hw02/Homework02';
+import Homework03 from './homeworks/hw03/Homework03';
 
 //Consultations:
 
@@ -19,9 +21,10 @@ function App() {
     <div className="App">
       {/* <Lesson_02 /> */}
       {/* <Homework02 /> */}
-      <Lesson_04/>
+      {/* <Lesson_03 /> */}
+      <Homework03 />
+      {/* <Lesson_04/> */}
     </div>
-
   );
 }
 

@@ -1,5 +1,6 @@
 .feedback-form-wrapper {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 15px;
@@ -7,16 +8,22 @@
     height: fit-content;
     border: 1px solid white;
     border-radius: 10px;
-    padding: 20px;
-    background-color: rgb(26, 35, 53);
+    padding: 40px;
+    background-color: rgb(19, 30, 52);
     color: white;
   }
   
   .button-control {
-    width: 80px;
+    display: flex;
+    flex-direction: row;
   }
   
   .counter {
+    line-height: 30px;
+    width: 100%;
+    padding: 20px;
+    font-family: "Lato", sans-serif;
+    text-align: center;
     font-size: 40px;
     font-weight: bold;
     color: white;

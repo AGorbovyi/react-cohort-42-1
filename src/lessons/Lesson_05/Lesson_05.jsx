@@ -75,7 +75,7 @@ const orderList = ingredients.map((ingr) => {
     <div className="ingredients-container">
         <p className="ingredients-title">Your order</p>
             <ol>
-                {ingredients}
+                {orderList}
             </ol>
     </div>
 </div>

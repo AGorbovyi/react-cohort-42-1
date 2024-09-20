@@ -4,6 +4,7 @@ import './App.css';
 import Lesson_02 from './lessons/lesson_02/Lesson_02';
 import Lesson_03 from './lessons/lesson_03/Lesson_03';
 import Lesson_04 from './lessons/Lesson_04/Lesson_04';
+import Lesson_05 from './lessons/Lesson_05/Lesson_05';
 
 //Homeworks:
 import Homework02 from './homeworks/hw02/Homework02';
@@ -25,7 +26,8 @@ function App() {
       {/* <Lesson_03 /> */}
       {/* <Homework03 /> */}
       {/* <Lesson_04/> */}
-      <Consultation_02/>
+      {/* <Consultation_02/> */}
+      <Lesson_05/>
     </div>
   );
 }

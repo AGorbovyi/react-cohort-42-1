@@ -7,15 +7,15 @@ function Feedback () {
 
     const [likes, setLike] = useState(0);
     const like = () => {
-        setLike((likes) => {
-            return ++likes;
+        setLike((prevValue) => {
+            return ++prevValue;
         });
     }
 
     const [dislikes, setDislike] = useState(0);
     const dislike = () => {
-        setDislike((dislikes) => {
-            return ++dislikes;
+        setDislike((prevValue) => {
+            return ++prevValue;
         });
     }
 
@@ -35,7 +35,7 @@ function Feedback () {
                 <div className='counter'>{dislikes}</div>
             </div>
             <div className='button-control'>
-                <Button name='Reset Results' onClick={reset} type='reset'/>
+                <Button name='Reset Results' onClick={reset}/>
             </div>
         </div>
     );
